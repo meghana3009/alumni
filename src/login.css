@@ -1,0 +1,71 @@
+@import "https://use.fontawesome.com/releases/v5.5.0/css/all.css";
+body{
+  font-family: sans-serif;
+  background:lightblue;
+  background-size: cover;
+}
+
+.login-box{
+  width: 300px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  color:skyblue;
+  background-color:white;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  text-align: center;
+  border-radius: 5px;
+  
+}
+.logo img{
+	display: block;
+  width: 60%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.textbox{
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+  overflow: hidden;
+  font-size: 20px;
+  padding: 8px 0;
+  border-bottom: 1px solid lightskyblue;
+}
+.textbox i{
+  width: 26px;
+  float: left;
+  text-align: center;
+}
+.textbox input{
+  border: none;
+  outline: none;
+  background: none;
+  color: black;
+  font-size: 18px;
+  width: 80%;
+  float: left;
+  margin: 0 10px;
+}
+.btn{
+  width: 50%;
+  color: white;
+  font-size: 18px;
+  margin: 12px 0;
+	background-color: #3897f0;
+  border: 2px solid #3897f0;
+  border-radius: 4px;
+  text-align: center;
+  padding: 5px;
+}
+.forgot{
+  font-size: 14px;
+  text-decoration: underline;
+text-align: center;
+}
+
+.forgot a{
+color:#3897f0;
+}
